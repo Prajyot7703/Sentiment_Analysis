@@ -21,7 +21,8 @@ def main():
     # skewness = st.text_input("skewness","Type Here")
     # curtosis = st.text_input("curtosis","Type Here")
     # entropy = st.text_input("entropy","Type Here")
-    result=""
+    # result=""
+    
     if st.button("Predict"):
         result=sent_pipeline(text)[0]["label"]
         # result=predict_note_authentication(variance,skewness,curtosis,entropy)
